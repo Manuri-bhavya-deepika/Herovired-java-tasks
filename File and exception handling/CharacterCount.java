@@ -3,7 +3,7 @@ class CharacterCount
 {
 
     public static void main(String[] args) {
-        String fileName = "D:\\HeroVired.txt";
+        String fileName = "../File and exception handling/HeroVired.txt";
         int charCount = 0;
         try {
             FileReader fileReader = new FileReader(fileName);
